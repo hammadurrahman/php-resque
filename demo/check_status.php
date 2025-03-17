@@ -21,3 +21,4 @@ while(true) {
 	fwrite(STDOUT, "Status of ".$argv[1]." is: ".$status->get()."\n");
 	sleep(1);
 }
+//Resque::setBackend('redis://user:pass@a.host.name:3432/2');
